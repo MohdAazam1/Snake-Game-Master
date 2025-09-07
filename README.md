@@ -64,7 +64,3 @@ Game_Using_Hand_Gesture/
 - Add more **gesture mappings** (e.g., thumbs up, two hands)  
 - Improve tracking accuracy and reduce lag  
 
----
-
-## 👨‍💻 Author
-Developed by **[Your Name]** ✨  
