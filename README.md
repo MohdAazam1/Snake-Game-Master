@@ -1,4 +1,4 @@
-# 🐍 Snake Game (Java)
+# 🐍 Snake Game Master
 
 ## 📌 Overview
 This is a **classic Snake Game** implemented in **Java**.  
