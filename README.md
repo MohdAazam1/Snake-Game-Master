@@ -1,66 +1,87 @@
-# 🎮 Game Using Hand Gesture
+# 🐍 Snake Game (Java)
 
-This project is a **Java-based game** that allows players to control gameplay using **hand gestures** instead of traditional keyboard or mouse input. By leveraging **computer vision techniques** (such as OpenCV for Java), the game tracks hand movements through a webcam and maps them to in-game actions.  
+## 📌 Overview
+This is a **classic Snake Game** implemented in **Java**.  
+The player controls the snake, eats food, and grows longer while avoiding collisions with the wall and itself.
 
 ---
 
 ## 🚀 Features
-- Real-time **hand gesture recognition** using webcam  
-- **Interactive gameplay** without physical controllers  
-- Fun, engaging, and innovative way to play classic games  
-- Built in **Java** for cross-platform compatibility  
+- Smooth snake movement  
+- Score tracking system  
+- Collision detection (wall & self)  
+- Simple and fun gameplay  
+- Built with **Core Java** (Swing & AWT)  
 
 ---
 
 ## 🛠️ Technologies Used
-- **Java** (Core game logic)  
-- **OpenCV (Java bindings)** – for hand tracking  
-- **AWT / Swing / JavaFX** – for game interface (if used)  
-
----
-
-## 📦 Installation
-1. Install **Java JDK 8+** on your system.  
-2. Install **OpenCV (Java bindings)** if not already installed.  
-   - Download from: [OpenCV Releases](https://opencv.org/releases/)  
-   - Add the OpenCV `.jar` file to your project’s classpath.  
-   - Place the native OpenCV binaries (`.dll` / `.so`) in your system path.  
-
----
-
-## ▶️ How to Run
-1. Clone this repository or download the source code:  
-   ```bash
-   git clone https://github.com/your-username/Game_Using_Hand_Gesture.git
-   ```
-2. Navigate to the project folder.  
-3. Compile the code:  
-   ```bash
-   javac Main.java
-   ```
-4. Run the game:  
-   ```bash
-   java Main
-   ```
-5. Allow camera access. Move your hand in front of the webcam to control the game!  
+- **Java** (Swing, AWT for GUI)  
+- **IntelliJ IDEA / Eclipse / NetBeans** (any Java IDE works)  
+- **Git & GitHub** (for version control)  
 
 ---
 
 ## 📂 Project Structure
-```
-Game_Using_Hand_Gesture/
+Snake-Game-master/
 │── src/
-│   ├── Main.java          # Entry point
-│   ├── Game.java          # Game logic
-│   ├── HandTracker.java   # Hand gesture recognition
-│── lib/                   # OpenCV JAR + native binaries
-│── README.md              # Documentation
-```
+│ └── GamePanel.java
+│ └── SnakeGame.java
+│── Snake-Game-master.iml
+│── README.md
+│── LICENSE
+
 
 ---
 
-## 🔮 Future Improvements
-- Support **multiple games** controlled by gestures  
-- Add more **gesture mappings** (e.g., thumbs up, two hands)  
-- Improve tracking accuracy and reduce lag  
+## ▶️ Getting Started
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/Snake-Game-Master.git
+cd Snake-Game-Master
+2. Open in IDE
+
+Open the folder in IntelliJ IDEA or any Java IDE
+
+Ensure JDK (Java 8 or later) is installed
+
+3. Run the Game
+
+Run SnakeGame.java from the src folder
+
+Use Arrow Keys to control the snake
+🎮 Controls
+
+⬆️ Up Arrow → Move Up
+
+⬇️ Down Arrow → Move Down
+
+⬅️ Left Arrow → Move Left
+
+➡️ Right Arrow → Move Right📖 Gameplay Rules
+
+Eat food to grow and score points
+
+Don’t hit the walls
+
+Don’t collide with yourself
+
+🤝 Contribution
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature-branch)
+
+Commit changes
+
+Push and create a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+---
